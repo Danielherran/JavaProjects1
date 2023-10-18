@@ -1,6 +1,7 @@
 import herencias.*;
+import java.util.java;
 
-public class test{
+public class testHerencia{
         public static void main (String [] args) {
             Persona per1 = new Persona ("Harry Styles" ,'H',27, "Santa Barbara");
             
