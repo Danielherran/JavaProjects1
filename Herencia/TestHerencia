@@ -1,10 +1,21 @@
 import herencias.*;
 import java.util.java;
 
-public class testHerencia{
-        public static void main (String [] args) {
-            Persona per1 = new Persona ("Harry Styles" ,'H',27, "Santa Barbara");
-            
-            System.out.println(per1);
-        }
+import java.util.Date;
+public class TestHerencia {
+    public static void main(String[] args) {
+        
+        //Crear empleados 
+        Empleado empleado1 = new Employee("Alex", 3000);
+        System.out.println(empleado1);
+        Empleado empleado2 = new Employee("Reol", 4000);
+        System.out.println(empleado2);
+        Empleado empleado3 = new Employee("Juan", 5000);
+        System.out.println(empleado3);
+        
+        //Crear Clientes 
+        var fecha = new Date(); //Obtener la fecha de hoy 
+        Cliente cliente1 = new Cliente(fecha, true, "Suny", 'F', 18,"Santo tomas");
+        System.out.println(cliente1);        
+    }
 }
